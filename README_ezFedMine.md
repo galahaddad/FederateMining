@@ -19,6 +19,7 @@ Hard‑coded target (by design)
 Payouts
 -------
 All rewards go directly to **Ralph’s wallet** above. This EXE is intended for friends who are donating hashpower.
+The next roadmap item is creating a pool share distribution 
 
 System requirements
 -------------------
