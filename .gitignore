@@ -1,1 +1,33 @@
+# Build outputs
+Release/
+build/
+*.exe
+*.zip
+
+# XMRig downloaded files
 /xmrig
+xmrig/
+
+# Logs
+*.log
+xmrig.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# PowerShell
+*.ps1xml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled PS1 debugging files
+*.pdb
+
+# Testing
+test-*
