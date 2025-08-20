@@ -277,12 +277,17 @@ git push origin --tags
 ### Automated Release
 
 ```bash
+# Ensure GitHub CLI is authenticated first
+gh auth status
+
 # Trigger GitHub Actions release
 gh workflow run release.yml -f version=v1.0.$(date +%Y%m%d)
 
 # Monitor progress - NEVER CANCEL: 20-30 minutes
 gh run watch
 ```
+
+**Note**: GitHub CLI requires authentication. In CI/CD environments, set `GH_TOKEN` environment variable.
 
 ## File Exclusions
 
