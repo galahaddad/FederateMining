@@ -6,6 +6,27 @@
 
 A simple, one-click Monero mining solution that automatically downloads XMRig and connects to Ralph's P2Pool mini node. Perfect for friends who want to donate hashpower with minimal setup.
 
+## 📊 NEW: Reward Sharing System
+
+🎯 **Fair reward distribution is now available!** 
+
+The EZ Fed Mine system now includes an optional reward sharing feature that enables fair distribution of mining rewards based on hashpower contributions.
+
+### Key Features:
+- **Proportional Rewards**: 60% based on share contributions, 40% on hashrate
+- **Transparent Tracking**: All contributions tracked and auditable
+- **Automated Distribution**: Scheduled reward calculations and payments
+- **Fair Operator Fee**: Ralph keeps 10%, 90% distributed to miners
+- **Minimum Qualification**: 2 hours mining per day to receive rewards
+
+### Getting Started with Reward Sharing:
+1. Navigate to the `ShareTracker` folder
+2. Follow the setup instructions in `INSTALLATION.md`
+3. Use `ezFedMine_v5_RewardSharing.ps1` instead of the regular version
+4. Register your Monero wallet address for reward distribution
+
+See `ShareTracker/README-RewardSharing-Complete.md` for complete documentation.
+
 ## 🚀 Overview
 
 **ezFedMine.exe** is a self-contained Windows executable that:
